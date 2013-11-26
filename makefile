@@ -27,10 +27,10 @@ INTEGRATE = integrate_suppyrRS.o fnmda.o integrate_suppyrFRB.o integrate_supbask
 
 EXTRA=trapfpe.o
 
-OUTPUT_FILE=-o groucho
+OUTPUT_FILE=-o groucho_serial
 #OUTPUT_FILE=
 
-GROUCHO = groucho.f
+GROUCHO=groucho_nogettime.f
 
 groucho_serial: FC=gfortran
 groucho_serial: groucho_nogettime.f $(STRUCT) $(INTEGRATE) makefile $(EXTRA)

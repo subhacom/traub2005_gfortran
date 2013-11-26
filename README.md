@@ -3,13 +3,19 @@ modified for g77 by Michael Hines). The makefile has been modified to
 generate the executables for figures 2, 6, 7A-D and the serial
 version.
 
-make groucho_fig2
-make groucho_fig6
-make groucho_fig7A
-make groucho_fig7B
-make groucho_fig7C
-make groucho_fig7D
-make groucho_serial
+`make groucho_fig2`
+
+`make groucho_fig6`
+
+`make groucho_fig7A`
+
+`make groucho_fig7B`
+
+`make groucho_fig7C`
+
+`make groucho_fig7D`
+
+`make groucho_serial`
 
 will create the corresponding executables. For all but the last one
 you need mpif77 with gfortran. The last one can be done with gfortran
@@ -19,7 +25,7 @@ To run a specific executable, except groucho_serial, use the
 run_groucho.sh script. The argument should be the specific groucho
 executable you want to run. Run groucho_serial directly:
 
-./groucho_serial
+`./groucho_serial`
 
 
 ---------------
@@ -35,4 +41,5 @@ gcc version 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu5)
 
 ----------------
 Subhasis Ray, NCBS, Bangalore, INDIA
+
 ray dot subhasis at gmail dot com
